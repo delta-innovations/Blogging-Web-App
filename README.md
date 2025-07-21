@@ -85,8 +85,8 @@ Explore the quantum-inspired design, create your own blog posts, and test the CR
 ### 1️⃣ Clone the repository:
 
 ```bash
-git clone https://github.com/sureshbarach2001/NIVOX-Personal-Blog-Platform.git
-cd NIVOX-Personal-Blog-Platform
+git clone https://github.com/delta-innovations/Blogging-Web-App.git
+cd Blogging-Web-App
 cd backend
 ```
 
@@ -131,7 +131,7 @@ npm start
 - Open New Terminal
 
 ```bash
-cd NIVOX-Personal-Blog-Platform
+cd Blogging-Web-App
 cd frontend
 ```
 
@@ -201,8 +201,6 @@ npm run dev
 - Run vercel in the frontend directory and follow the prompts to link your GitHub repository.
 - Set environment variables (e.g., NEXT_PUBLIC_API_URL=https://nivox-personal-blog-platform-backend.onrender.com) in Vercel’s dashboard.
 
-**Deploy:** Vercel will deploy your frontend (e.g., https://nivox.vercel.app).
-
 ---
 # 🚀 API Endpoints
 
@@ -218,12 +216,6 @@ npm run dev
   - **POST /api/auth/register:** Register a new user.
   - **POST /api/auth/login:** Login and receive JWT tokens.
 ---
-# 📊 Project Status
-- **Current Status:** Beta (Actively maintained and developed).
-- **Version:** 1.0.0
-- **Last Updated:** March 16, 2025
-- **Release**: [v1.0.0](https://github.com/sureshbarach2001/NIVOX-Personal-Blog-Platform/releases/tag/v1.0.0)
----
 # ⚠️ Known Issues
 - **CORS Issues in Production:** Due to Render's proxy behavior, you might encounter CORS errors when fetching blog data. Ensure the backend's CORS configuration includes the frontend origin (https://nivox.vercel.app) and that Render isn't stripping headers. See this section for deployment details.
 - **Browser Compatibility:** Some quantum-inspired animations (e.g., latticeDrift) may not render smoothly on older browsers like IE11. Recommended browsers: Chrome, Firefox, Edge (latest versions).
@@ -233,7 +225,7 @@ npm run dev
 **Fork the Repository:** Click the "Fork" button on GitHub.
 **Clone Your Fork:**
 ```bash
-git clone https://github.com/sureshbarach2001/NIVOX-Personal-Blog-Platform.git
+git clone https://github.com/delta-innovations/Blogging-Web-App.git
 ```
 **Create a Branch:**
 ```bash
@@ -288,6 +280,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Multi-Language Support:** Enable internationalization (i18n) for broader reach.
 ---
 # 📞 Contact
-- [**Portfolio**](https://sureshbarach2001.vercel.app/)
-- [**GitHub:**](https://github.com/sureshbarach2001)
-- [**Email:**](mailto:sainnk4831@gmail.com)
+- Portfolio of [**Suresh Kumar**](https://sureshkumar2001.vercel.app/)
+- GitHub: [**Suresh Kumar**](https://github.com/sureshbarach2001), [**Delta Innovations**](https://github.com/sureshbarach2001)
+- Email: [**Delta Innovations Team**](mailto:contact@deltainnovations.net)
