@@ -1,0 +1,194 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Blog-App",
+    "collectionId": "0b42c023-d2a6-4b77-8993-19c893d0d66f",
+    "dateExported": "2025-03-13T02:07:59.170Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "204d8e12-bcc2-43d8-ad5d-553992a9e109",
+            "colId": "0b42c023-d2a6-4b77-8993-19c893d0d66f",
+            "containerId": "",
+            "name": "Delete Blog by ID",
+            "url": "http://localhost:5000/api/blogs/67d2388e64fb3abeb51f8ad2",
+            "method": "DELETE",
+            "sortNum": 10000,
+            "created": "2025-03-13T02:05:51.533Z",
+            "modified": "2025-03-13T02:05:51.533Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZDIyZDIyZmZmMjliMTUwZjNmNTdlYiIsImlhdCI6MTc0MTgzMTAxMSwiZXhwIjoxNzQxODMxOTExfQ.OqfBk5KQwndlqTWE-XRodOc_un0CUEQEL0gaWt8AzyY"
+                }
+            ],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZDIyZDIyZmZmMjliMTUwZjNmNTdlYiIsImlhdCI6MTc0MTgzMTAxMSwiZXhwIjoxNzQxODMxOTExfQ.OqfBk5KQwndlqTWE-XRodOc_un0CUEQEL0gaWt8AzyY"
+            }
+        },
+        {
+            "_id": "fa93a9a5-3b81-487c-a9e0-6bd1fe4a3b8a",
+            "colId": "0b42c023-d2a6-4b77-8993-19c893d0d66f",
+            "containerId": "",
+            "name": "Get Specific Blog by ID",
+            "url": "http://localhost:5000/api/blogs/67d2388e64fb3abeb51f8ad2",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2025-03-13T02:06:04.461Z",
+            "modified": "2025-03-13T02:06:04.461Z",
+            "headers": []
+        },
+        {
+            "_id": "5a69bc52-5c84-45d9-9f1f-35f7eb9231c8",
+            "colId": "0b42c023-d2a6-4b77-8993-19c893d0d66f",
+            "containerId": "",
+            "name": "All Blogs Data",
+            "url": "http://localhost:5000/api/blogs/",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2025-03-13T02:06:14.858Z",
+            "modified": "2025-03-13T02:06:14.858Z",
+            "headers": []
+        },
+        {
+            "_id": "661e92c4-eb0b-46b2-8ea3-8461152c6cd3",
+            "colId": "0b42c023-d2a6-4b77-8993-19c893d0d66f",
+            "containerId": "",
+            "name": "Add New Blog",
+            "url": "http://localhost:5000/api/blogs/",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2025-03-13T02:06:30.089Z",
+            "modified": "2025-03-13T02:06:30.089Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZDIyZDIyZmZmMjliMTUwZjNmNTdlYiIsImlhdCI6MTc0MTgzMDI0NSwiZXhwIjoxNzQxODMxMTQ1fQ.tOqQE1VgpTFnD6KrpBWogfRgVH4zoLv_0ruj7MOlUv4"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"My Fourth Blog Post\",\n  \"content\": \"This is the content of my first blog post. It should be long enough to meet the validation requirements.\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "90be251f-34e0-424c-8201-2795deb6852d",
+            "colId": "0b42c023-d2a6-4b77-8993-19c893d0d66f",
+            "containerId": "",
+            "name": "Edit Blog by ID",
+            "url": "http://localhost:5000/api/blogs/67d2388e64fb3abeb51f8ad2",
+            "method": "PUT",
+            "sortNum": 70000,
+            "created": "2025-03-13T02:06:38.166Z",
+            "modified": "2025-03-13T02:06:38.166Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZDIyZDIyZmZmMjliMTUwZjNmNTdlYiIsImlhdCI6MTc0MTgzMDI0NSwiZXhwIjoxNzQxODMxMTQ1fQ.tOqQE1VgpTFnD6KrpBWogfRgVH4zoLv_0ruj7MOlUv4"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"My Fourth updated Blog Post\",\n  \"content\": \"This is the content of my first blog post. It should be long enough to meet the validation requirements.\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "56092a9a-caeb-45e5-8073-617ca321e844",
+            "colId": "0b42c023-d2a6-4b77-8993-19c893d0d66f",
+            "containerId": "",
+            "name": "Logout",
+            "url": "http://localhost:5000/api/auth/logout",
+            "method": "POST",
+            "sortNum": 80000,
+            "created": "2025-03-13T02:06:43.444Z",
+            "modified": "2025-03-13T02:06:43.444Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZDIyZDIyZmZmMjliMTUwZjNmNTdlYiIsImlhdCI6MTc0MTgyOTc4OSwiZXhwIjoxNzQyNDM0NTg5fQ.w_LEYV8WiBErqWvgag57SHuci5C9GIGEN36bJ9GkUgQ"
+                }
+            ],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZDIyZDIyZmZmMjliMTUwZjNmNTdlYiIsImlhdCI6MTc0MTgyOTc4OSwiZXhwIjoxNzQyNDM0NTg5fQ.w_LEYV8WiBErqWvgag57SHuci5C9GIGEN36bJ9GkUgQ"
+            }
+        },
+        {
+            "_id": "f130dc00-1dee-4eec-bab0-d05d88b1735d",
+            "colId": "0b42c023-d2a6-4b77-8993-19c893d0d66f",
+            "containerId": "",
+            "name": "Refresh Token",
+            "url": "http://localhost:5000/api/auth/refresh",
+            "method": "POST",
+            "sortNum": 90000,
+            "created": "2025-03-13T02:06:49.473Z",
+            "modified": "2025-03-13T02:06:49.473Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZDIyZDIyZmZmMjliMTUwZjNmNTdlYiIsImlhdCI6MTc0MTgzMDY0MSwiZXhwIjoxNzQyNDM1NDQxfQ.3epon-b9kkgqijmUKdWCGWgKeIkn99-mNE0eVSC9rTQ"
+                }
+            ],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZDIyZDIyZmZmMjliMTUwZjNmNTdlYiIsImlhdCI6MTc0MTgzMDY0MSwiZXhwIjoxNzQyNDM1NDQxfQ.3epon-b9kkgqijmUKdWCGWgKeIkn99-mNE0eVSC9rTQ"
+            }
+        },
+        {
+            "_id": "3f7f5f40-1e7e-4154-98b4-1c35afdd9769",
+            "colId": "0b42c023-d2a6-4b77-8993-19c893d0d66f",
+            "containerId": "",
+            "name": "Login",
+            "url": "http://localhost:5000/api/auth/login",
+            "method": "POST",
+            "sortNum": 100000,
+            "created": "2025-03-13T02:06:54.914Z",
+            "modified": "2025-03-13T02:06:54.914Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"testuser1@example.com\",\n  \"password\": \"Password123@\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "cce26b56-ef3a-445e-a58e-f0156199a576",
+            "colId": "0b42c023-d2a6-4b77-8993-19c893d0d66f",
+            "containerId": "",
+            "name": "Register User",
+            "url": "http://localhost:5000/api/auth/register",
+            "method": "POST",
+            "sortNum": 110000,
+            "created": "2025-03-13T02:07:00.932Z",
+            "modified": "2025-03-13T02:07:00.932Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\": \"testuser1\",\n  \"email\": \"testuser1@example.com\",\n  \"password\": \"Password123@\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "ORQOiFKgtpmS46jOI3DHhUbLMR1fASIBJZyODM-e7aE9mFrKM1FuRwGXVfTb7AJKNfUhtHNNyPji25bodhVPgA"
+}
