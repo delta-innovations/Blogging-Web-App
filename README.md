@@ -59,7 +59,7 @@
 ---
 # 🌐 Demo
 Experience NIVOX live! Visit the deployed application at:
-- [NIVOX](https://nivox.vercel.app)
+- [NIVOX](https://nivoxbloggingapp.vercel.app/)
 Explore the quantum-inspired design, create your own blog posts, and test the CRUD functionality firsthand.
 
 ---
