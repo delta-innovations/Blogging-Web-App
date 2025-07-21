@@ -1,8 +1,6 @@
 # 🌌 NIVOX - A Quantum-Inspired Personal Blog Platform ✍️
 <img src="https://github.com/delta-innovations/Blogging-Web-App/blob/main/frontend/src/app/favicon.ico" alt="NIVOX Logo" width="100" height="100">
 
-
-https://github.com/delta-innovations/Blogging-Web-App/blob/main/frontend/src/app/favicon.ico
 **🌌NIVOX** is a cutting-edge, full-stack personal blog platform crafted with the MERN Stack (MongoDB, Express.js, React via Next.js, Node.js). It empowers creators to weave their stories through seamless CRUD operations—create, read, update, and delete blog posts—within a futuristic, quantum-inspired realm. 🔐 Fueled by secure JWT authentication, 🚀 optimized with Next.js server-side rendering (SSR) for blazing performance, and 🎨 adorned with a sleek aesthetic powered by Tailwind CSS and custom quantum animations (like latticeDrift and depthGlow), NIVOX is where advanced technology meets boundless creative expression. Step into a blogging experience that feels like traversing the cosmos! 🌠
 
 ---
@@ -68,10 +66,10 @@ Explore the quantum-inspired design, create your own blog posts, and test the CR
 ## 📸 Screenshots
 
 - **Logo**:  
-  <img src="https://raw.githubusercontent.com/sureshbarach2001/NIVOX-Personal-Blog-Platform/53357ed85a59fa8173e3e4c096f1e46a4fffc4d5/frontend/src/app/favicon.ico" alt="NIVOX Logo" width="50" height="50">
-- **Homepage**: <img src="https://raw.githubusercontent.com/sureshbarach2001/NIVOX-Personal-Blog-Platform/main/assets/hoem.png" alt="Homepage" width="200">
-- **All Blogs**: <img src="https://raw.githubusercontent.com/sureshbarach2001/NIVOX-Personal-Blog-Platform/main/assets/blogs.png" alt="Navbar" width="200">
-- **Create Post**: <img src="https://raw.githubusercontent.com/sureshbarach2001/NIVOX-Personal-Blog-Platform/main/assets/createblog.png" alt="Create Post" width="200">
+  <img src="https://github.com/delta-innovations/Blogging-Web-App/blob/main/frontend/src/app/favicon.ico" alt="NIVOX Logo" width="50" height="50">
+- **Homepage**: <img src="https://github.com/delta-innovations/Blogging-Web-App/blob/main/assets/home.png" alt="Homepage" width="200">
+- **All Blogs**: <img src="https://github.com/delta-innovations/Blogging-Web-App/blob/main/assets/blogs.png" alt="Navbar" width="200">
+- **Create Post**: <img src="https://github.com/delta-innovations/Blogging-Web-App/blob/main/assets/createblog.png" alt="Create Post" width="200">
 
 ---
 # 📂 Project Setup & Installation
